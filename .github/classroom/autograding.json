@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Example 1",
+      "setup": "javac src/HCF.java",
+      "run": "java -cp src HCF",
+      "input": "75 90",
+      "output": "15",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Example 2 (Multiple)",
+      "setup": "javac src/HCF.java",
+      "run": "java -cp src HCF",
+      "input": "25 50",
+      "output": "25",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Prime Numbers (Coprime)",
+      "setup": "javac src/HCF.java",
+      "run": "java -cp src HCF",
+      "input": "13 17",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Consecutive Numbers",
+      "setup": "javac src/HCF.java",
+      "run": "java -cp src HCF",
+      "input": "14 15",
+      "output": "1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Equal Numbers",
+      "setup": "javac src/HCF.java",
+      "run": "java -cp src HCF",
+      "input": "12 12",
+      "output": "12",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
